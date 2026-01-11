@@ -28,7 +28,7 @@ dados = carregar_dados(acoes)
 
 
 st.write("""
-### App Preço de Açõess
+### App Preço de Ações
 O gráfico abaixo representa a evolução do preço das ações ao longo dos anos
 """)
 
@@ -77,4 +77,5 @@ st.write(f"""
 Essa foi a perfomance de cada ativo no período selecionado:
          
 {texto_performance_ativos}
+
 """)
