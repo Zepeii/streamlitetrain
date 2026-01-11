@@ -28,7 +28,7 @@ dados = carregar_dados(acoes)
 
 
 st.write("""
-### App Preço de Ações
+### App Preço de Açõess
 O gráfico abaixo representa a evolução do preço das ações ao longo dos anos
 """)
 
@@ -57,9 +57,7 @@ st.line_chart(dados)
 
 texto_performance_ativos = ""
 
-if len(lista_acoes)==0:
-    lista_acoes =[]
-elif len(lista_acoes)==1:
+if len(lista_acoes)==1:
     dados = dados.rename(columns ={"Close": acao_unica})
 
 for ativo in lista_acoes:
@@ -77,6 +75,4 @@ st.write(f"""
 Essa foi a perfomance de cada ativo no período selecionado:
          
 {texto_performance_ativos}
-
 """)
-
