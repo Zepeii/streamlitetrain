@@ -53,11 +53,17 @@ dados = dados.loc[intervalo_data[0]:intervalo_data[1]]
 
 
 #gráfico
+if not lista_acoes:
+    st.info("Selecione pelo menos uma ação para visualizar o gráfico.")
+    st.stop()
+
 st.line_chart(dados)
 
 texto_performance_ativos = ""
 
-if len(lista_acoes)==1:
+if len(lista_acoes)==0:
+    lista_acoes =[]
+elif len(lista_acoes)==1:
     dados = dados.rename(columns ={"Close": acao_unica})
 
 for ativo in lista_acoes:
