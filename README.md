@@ -1,4 +1,15 @@
 # streamlitetrain
-Esse app tem como objetivo mostrar o desempenho das ações do IBOVESPA através de gráficos e percentuais no intervalo entre 03/01/2022 até 28/06/2024.
-Pode ser visualizado pelo seguinte link: https://appetrain-v6pieqhbbe3z4jzcxyuybv.streamlit.app/
+Aplicação web interativa desenvolvida em Python + Streamlit para visualização e análise da evolução histórica de preços de ações listadas na B3 (Brasil).
+
+O app permite selecionar múltiplos ativos, definir o intervalo de datas e visualizar:
+
+Gráfico de preços de fechamento
+
+Performance percentual de cada ativo no período selecionado
+
+🔗 Acesse o app online:
+
+https://appetrain-v6pieqhbbe3z4jzcxyuybv.streamlit.app/
+
+
 
