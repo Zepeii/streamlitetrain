@@ -1,6 +1,7 @@
 # streamlitetrain
 Aplicação web interativa desenvolvida em Python + Streamlit para visualização e análise da evolução histórica de preços de ações listadas na B3 (Brasil).
 
+
 O app permite selecionar múltiplos ativos, definir o intervalo de datas e visualizar:
 
 Gráfico de preços de fechamento
