@@ -58,7 +58,7 @@ st.line_chart(dados)
 texto_performance_ativos = ""
 
 if len(lista_acoes)==0:
-    lista_acoes =list(dados.columns)
+    lista_acoes =[]
 elif len(lista_acoes)==1:
     dados = dados.rename(columns ={"Close": acao_unica})
 
@@ -79,3 +79,4 @@ Essa foi a perfomance de cada ativo no período selecionado:
 {texto_performance_ativos}
 
 """)
+
